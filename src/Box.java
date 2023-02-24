@@ -15,7 +15,7 @@ public class Box <A>{
     public void setAge(A age) {
         this.age = age;
     }
-    public static <A> A method(){
+    public static <A extends Number> A method(Box<A> box){
         return null;
     }
 
